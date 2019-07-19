@@ -21,22 +21,21 @@
     <div class="container">
         <div class="jumbotron jumbotron-fluid text-center bg-primary">
             <div class="container">
-                <h1 class="display-4">Totally Trivial Trivia! Cars Edition</h1>
+                <h1 class="display-4" id="header">Totally Trivial Trivia! Cars Edition</h1>
             </div>
         </div>
     </div>
     <!-- Card to contain the quiz -->
     <div class="container">
         <div class="card text-center">
-            <div class="card-header">
+            <div class="card-header" id="subHeader">
                 The Car Trivia Game
             </div>
-            <div class="card-body">
-                <h5 class="card-title">True or False</h5>
-                <a href="#" class="btn btn-primary">Start Quiz</a>
-            </div>
-            <div class="card-footer text-muted">
-                Watch the time!
+            <div class="card-body" id="gameStart">
+                <h2 class="card-title" id="trueFalse">True or False</h2>
+                <div id="contentContainer">
+                    <button id="button" class="btn btn-primary">Start Quiz</button>
+                </div>
             </div>
         </div>
     </div>
@@ -44,7 +43,8 @@
     <!-- Linking Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Linking Javascript -->
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </body>
 
 </html>
